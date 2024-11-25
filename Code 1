@@ -1,0 +1,223 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 10,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2028,
+            "display_year": "2028: Repeal 22",
+            "summary": "Following the repeal of the 22nd Amendment the Republicans are well on their way on securing a Trump dictatorship. Several states face crippling voter restrictions which only serve to the benefit of GOP candidates, and with such a barrier to winning, the Democrats feel their only way to win this election is to use their ace candidate.",
+            "image_url": "https://i.imgur.com/J8VPu9k.png",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://i.imgur.com/LTuSGPI.png",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
+        }
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2028,
+        "is_premium": 0,
+        "display_year": "2028: Repeal 22"
+    }
+]
+
+campaignTrail_temp.credits = "Troopas"
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 300,
+        "fields": {
+            "first_name": "Barack",
+            "last_name": "Obama",
+            "election": 20,
+            "party": "Democratic Party",
+            "state": "Illinois",
+            "priority": 1,
+            "description": "<p>The 44th President of the United States is back to reclaim our country from the fascist-dictator wanna be that is Trump. Obama sets out on his campaign for the White House in an up-hill struggle. The Republicans across the nation have implemented a series of \"fraud prevention laws\" which at a baseline hurts Democratic chances of victory. The Dems feel the only sustainable path to victory is through their 'ol reliable.</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/euKFNNo.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 301,
+        "fields": {
+            "first_name": "Donald J.",
+            "last_name": "Trump",
+            "election": 20,
+            "party": "Republican Party",
+            "state": "Florida",
+            "priority": 1,
+            "description": "He's running? You're joking. They- the DEMS. They can't do that. No, it isn't allowed, it is UNCONSTITUTIONAL. He was born in KENYA, NOT AMERICAN! Folks, they're STARTING THE STEAL. They have CHOSEN an ILLEGITIMATE candidate even WORSE than Comrade Kamala. We're not gonna lose, we're gonna win BIG LEAGUE. Bigger than any election ever. They're saying that perhaps this may be the biggest victory than the LATE GREAT RONALD REAGAN'S VICTORY in 1924 or 1940 or whenever it was. \n",
+            "color_hex": "#ff0000",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/KrQLurQ.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 305,
+        "fields": {
+            "first_name": "J.D",
+            "last_name": "Vance",
+            "election": 20,
+            "party": "Republican Party",
+            "state": "Ohio",
+            "priority": 1,
+            "description": "<p>\"I...really wish I picked someone else in 2024.\"</p>",
+            "color_hex": "#ff0000",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/FFwnI4G.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "\"I...really should have picked someone else in 2024.\"",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 304,
+        "fields": {
+            "first_name": "Jon ",
+            "last_name": "Ossoff",
+            "election": 20,
+            "party": "Democratic Party",
+            "state": "Georgia",
+            "priority": 1,
+            "description": "<p>The progressive Georgian.</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/r5VWzfc.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "The famous senator from Georgia, Jon Ossoff. Considered a progressive from much of the left and a bipartisan moderate from people from the center to center right. Obama has chosen him to take on the job of VP since his previous VP is...well, out of order.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 156174,
+        "fields": {
+            "candidate": 300,
+            "running_mate": 304
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 99450,
+        "fields": {
+            "candidate": 301,
+            "running_mate": 305
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            300,
+            301
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            300,
+            301
+        ]
+    }
+]
+
+jet_data = {
+    "headerColor": "#06005c",
+    "windowColor": "#5c0000",
+    "containerColor": "#000000",
+    "innerWindowColor": "#22003d",
+    "bannerImageUrl": "https://i.imgur.com/hWM8c0Y.png",
+    "backgroundImageUrl": "https://i.imgur.com/GJ9nZE8.png",
+    "endingTextColor": "#000000",
+    "customQuote": "",
+    "gameTitle": "8202:LlART NGIAPMAC EHT"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>8202:LlART NGIAPMAC EHT</h2>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#06005c";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#5c0000";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#000000";
+
+document.getElementById("header").src = "https://i.imgur.com/hWM8c0Y.png";
+
+document.body.background = "https://i.imgur.com/GJ9nZE8.png";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#22003d!important;}</style>";
+
+//#endcode
